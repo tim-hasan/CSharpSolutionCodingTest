@@ -15,10 +15,10 @@ namespace Engine
         private void ValidateName(string x)
         {
             if (x.Length > 20)
-                throw new NodeNameTooLongException();
+                throw new NodeNameTooLongException("'"+x+" was too long ");
             if (x.StartsWith("SAT") && !Regex.Match(x, pattern).Success)
             {
-                throw new SATNodeNameInvalidException();
+                throw new SATNodeNameInvalidException("'"+x+"' is an invalid SAT name");
             }
         }
 
