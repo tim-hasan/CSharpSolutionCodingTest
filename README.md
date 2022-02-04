@@ -19,5 +19,5 @@ Can take other commands.
 
 ## How to run tests from the command line:
 
-dotnet test Communicator.Tests.dll
+   dotnet test Communicator.Tests.dll
 
