@@ -1,7 +1,7 @@
 # CSharpSolutionCodingTest
 Contains a CSHARP solution for the DU SDET Test
 
-#how To run
+#how to run
 1. Set project to Release mode then from Build, Click Publish to folder.
 2. type the command:
 
