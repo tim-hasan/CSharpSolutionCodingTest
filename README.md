@@ -5,7 +5,8 @@ This repo contains a console application, a class library for the engine and som
 
 ## How to run the console application from command line
 1. Set project to Release mode then from Build, Click Publish to folder.
-2. type the example input command: `dotnet Communicator.dll "Alpha,Bravo<BR>Bravo,Alpha, SAT1<BR>SAT1,Bravo , Charlie<BR>Charlie, SAT1<BR>Delta  ,Zulu<BR> Zulu,Delta, SAT2<BR>SAT2,  Zulu"` 
+2. type the example input command: `dotnet Communicator.dll "Alpha,Bravo
+Bravo,Alpha, SAT1<BR>SAT1,Bravo , Charlie<BR>Charlie, SAT1<BR>Delta  ,Zulu<BR> Zulu,Delta, SAT2<BR>SAT2,  Zulu"` 
 
 3. Output `3` 
 
