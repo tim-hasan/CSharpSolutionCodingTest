@@ -23,6 +23,7 @@ namespace Communicator.Tests
             Assert.Throws<SATNodeNameInvalidException>(() => new Node(nodeName));
         }
 
+
             [Theory]
         [InlineData("ALPHA")]
         [InlineData("0123456789012")]

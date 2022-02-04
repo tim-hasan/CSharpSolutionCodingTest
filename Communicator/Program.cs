@@ -10,7 +10,7 @@ namespace Communicator
             //Console.WriteLine("Please provide your Input:");
             string input = args[0];
             CommunicatorCalculator cc = new CommunicatorCalculator();
-            try
+            try 
             {
                 cc.ParseAndGroup(input);
             }
