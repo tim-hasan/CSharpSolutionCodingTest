@@ -5,7 +5,7 @@ Contains a CSHARP solution for the DU SDET Test
 1. Set project to Release mode then from Build, Click Publish to folder.
 2. type the command:
 
-dotnet Communicator.dll "Alpha,Bravo                                                          3 ✘ │  │ system  │ 12:13:15 pm
+dotnet Communicator.dll "Alpha,Bravo                                                  
 Bravo,Alpha, SAT1
 SAT1,Bravo , Charlie
 Charlie, SAT1
