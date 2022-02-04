@@ -6,7 +6,8 @@ This repo contains a console application, a class library for the engine and som
 ## How to run the console application from command line
 1. Set project to Release mode then from Build, Click Publish to folder.
 2. type the example input command: 
-```dotnet Communicator.dll "Alpha,Bravo
+```
+dotnet Communicator.dll "Alpha,Bravo
 Bravo,Alpha, SAT1
 SAT1,Bravo , Charlie
 Charlie, SAT1
@@ -15,11 +16,16 @@ Zulu,Delta, SAT2
 SAT2,  Zulu"
 ```
 
-3. Output ```3``` 
+3. Output 
+```
+3
+``` 
 
 ## How to run tests from the command line:
 
-   ```dotnet test Communicator.Tests.dll```
+   ```
+   dotnet test Communicator.Tests.dll
+   ```
 
 ## Assumptions :
 Lowercase SAT would be rejected <BR>
