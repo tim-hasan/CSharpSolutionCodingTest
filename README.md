@@ -1,11 +1,23 @@
 # CSharp solution for SDET coding Ttst
 Contains a CSHARP solution for the DU SDET Test.
-![This is an image]diagram.png
+
+<img src="diagram.png" alt="drawing" width="400"/>
+
 This repo contains a console application, a class library for the engine and some unit tests.
 
 ## How to run the console application from command line
-1. Set project to Release mode then from Build, Click Publish to folder.
-2. Type the example input command: 
+1. After building Solution using commad: 
+```
+dotnet build
+```
+2. you need to publish the solution :
+```
+dotnet publish 
+```
+3. Alternatively from Visual Studio one can set project to Release mode then from Build, Click Publish to folder.
+4. To Run the console application, type the example input command: 
+Consists of the Dotnet library command, the ConsoleApplication library and then the command input. 
+
 ```
 dotnet Communicator.dll "Alpha,Bravo
 Bravo,Alpha, SAT1
@@ -16,7 +28,7 @@ Zulu,Delta, SAT2
 SAT2,  Zulu"
 ```
 
-3. Output 
+3. The output should read out the largest number of entities in a group from the input. 
 ```
 3
 ``` 
