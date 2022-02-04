@@ -16,8 +16,8 @@ Can take other commands.
    dotnet test Communicator.Tests.dll
 
 ##Assumptions :
-Lowercase SAT would be rejected
-Can have as many duplicate Team names in input but would still be grouped distictly
-Teams can talk over any number of Satalites.
-Team names can not be 0 chars long
-Team names can't have spaces in them
+Lowercase SAT would be rejected <BR>
+Can have as many duplicate Team names in input but would still be grouped distictly<BR>
+Teams can talk over any number of Satalites.<BR>
+Team names can not be 0 chars long<BR>
+Team names can't have spaces in them<BR>
