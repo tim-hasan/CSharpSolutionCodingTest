@@ -15,7 +15,7 @@ Can take other commands.
 
    dotnet test Communicator.Tests.dll
 
-##Assumptions :
+## Assumptions :
 Lowercase SAT would be rejected <BR>
 Can have as many duplicate Team names in input but would still be grouped distictly<BR>
 Teams can talk over any number of Satalites.<BR>
