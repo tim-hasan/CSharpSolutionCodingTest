@@ -68,14 +68,15 @@ Unknown, SAT3
 
         [Theory]
         [InlineData("Alpha,Bravo", 1)]
-        [InlineData("Alpha,Bravo,Cappa", 1)] 
+        [InlineData("Alpha,Bravo,Cappa", 1)]
+        [InlineData("Alpha,Bravo\nCappa", 2)]
         public void Should_group_Inputs_Lines(string input, int expectedGroups)
         {
             CommunicatorCalculator comm = new CommunicatorCalculator();
-            
+
             List<Node> nodes = comm.ConvertToNodes(input);
             List<List<Node>> groups = comm.AddGroup(nodes); 
-            Assert.Equal(expectedGroups, groups.Count());
+            Assert.Equal(expectedGroups, groups.Count);
 
         }
 
@@ -88,7 +89,7 @@ Unknown, SAT3
         {
             CommunicatorCalculator comm = new CommunicatorCalculator();
             List<List<Node>> groups = comm.ParseAndGroup(input);
-            Assert.Equal(expectedGroups, groups.Count());
+            Assert.Equal(expectedGroups, groups.Count);
 
         }
 
@@ -106,7 +107,7 @@ SAT2,Ccappa", 2)]
         {
             CommunicatorCalculator comm = new CommunicatorCalculator();
             List<List<Node>> groups = comm.ParseAndGroup(input);
-            Assert.Equal(expectedGroups, groups.Count());
+            Assert.Equal(expectedGroups, groups.Count);
 
         }
 
