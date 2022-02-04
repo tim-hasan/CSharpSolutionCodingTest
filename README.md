@@ -20,3 +20,4 @@ Can take other commands.
 3. Can run tests from the command line too:
 
 dotnet test Communicator.Tests.dll
+
