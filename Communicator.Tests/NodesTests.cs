@@ -17,7 +17,11 @@ namespace Communicator.Tests
 
         [Theory]
         [InlineData("SATxy1")]
-        [InlineData("SAT12fff")] 
+        [InlineData("SAT12fff")]
+        [InlineData("SatDown")]
+        [InlineData("saTaLight")]
+        [InlineData("sata")]
+        [InlineData("SATadasds11231231231")]
         public void Should_Throw_Exception_When_SATNAME_Text_Is_Set_Incorrecty(string nodeName)
         {
             Assert.Throws<SATNodeNameInvalidException>(() => new Node(nodeName));

@@ -16,7 +16,7 @@ namespace Engine
         {
             if (x.Length > 20)
                 throw new NodeNameTooLongException("'"+x+" was too long ");
-            if (x.StartsWith("SAT") && !Regex.Match(x, pattern).Success)
+            if (x.ToUpper().StartsWith("SAT") && !Regex.Match(x, pattern).Success)
             {
                 throw new SATNodeNameInvalidException("'"+x+"' is an invalid SAT name");
             }
