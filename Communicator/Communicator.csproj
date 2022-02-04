@@ -18,4 +18,12 @@
   <ItemGroup>
     <ProjectReference Include="..\Engine\Engine.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <None Remove="input.csv" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="input.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
 </Project>

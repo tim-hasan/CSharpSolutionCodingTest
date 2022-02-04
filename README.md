@@ -19,14 +19,7 @@ dotnet publish
 Consists of the Dotnet library command, the ConsoleApplication library and then the command input. 
 
 ```
-dotnet Communicator.dll "Alpha,Bravo
-Bravo,Alpha, SAT1
-SAT1,Bravo , Charlie
-Charlie, SAT1
-Delta  ,Zulu
-Zulu,Delta, SAT2
-SAT2,  Zulu"
-```
+dotnet Communicator.dll fileLocation.csv
 
 3. The output should read out the largest number of entities in a group from the input. 
 ```
