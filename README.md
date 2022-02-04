@@ -5,13 +5,13 @@ This repo contains a console application, a class library for the engine and som
 
 ## How to run the console application from command line
 1. Set project to Release mode then from Build, Click Publish to folder.
-2. type the example input command: `dotnet Communicator.dll "Alpha,Bravo\nBravo,Alpha, SAT1\nSAT1,Bravo , Charlie\nCharlie, SAT1<\nDelta  ,Zulu\n Zulu,Delta, SAT2\nSAT2,  Zulu"` 
+2. type the example input command: ```dotnet Communicator.dll "Alpha,Bravo\nBravo,Alpha, SAT1\nSAT1,Bravo , Charlie\nCharlie, SAT1<\nDelta  ,Zulu\n Zulu,Delta, SAT2\nSAT2,  Zulu"``` 
 
-3. Output `3` 
+3. Output ```3``` 
 
 ## How to run tests from the command line:
 
-   `dotnet test Communicator.Tests.dll`
+   ```dotnet test Communicator.Tests.dll```
 
 ## Assumptions :
 Lowercase SAT would be rejected <BR>
