@@ -12,7 +12,8 @@ SAT1,Bravo , Charlie
 Charlie, SAT1
 Delta  ,Zulu
 Zulu,Delta, SAT2
-SAT2,  Zulu"``` 
+SAT2,  Zulu"
+```
 
 3. Output ```3``` 
 
