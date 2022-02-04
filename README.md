@@ -1,6 +1,8 @@
 # CSharp solution for SDET coding Ttst
-Contains a CSHARP solution for the DU SDET Test. 
-<img src="diagram.png" alt="drawing" width="100"/>
+Contains a CSHARP solution for the DU SDET Test.
+
+<img src="diagram.png" alt="drawing" width="400"/>
+
 This repo contains a console application, a class library for the engine and some unit tests.
 
 ## How to run the console application from command line
