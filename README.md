@@ -1,7 +1,7 @@
 # CSharpSolutionCodingTest
 Contains a CSHARP solution for the DU SDET Test
 
-#how To run
+## How to run
 1. Set project to Release mode then from Build, Click Publish to folder.
 2. type the command:
 
@@ -17,7 +17,7 @@ Expect output will be 3 for this command.
 
 Can take other commands.
 
-3. Can run tests from the command line too:
+## How to run tests from the command line:
 
 dotnet test Communicator.Tests.dll
 
