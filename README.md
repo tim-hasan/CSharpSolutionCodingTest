@@ -17,6 +17,4 @@ Expect output will be 3 for this command.
 
 Can take other commands.
 
-3. Can run tests from the command line too:
-
-dotnet Communicator.Tests.dll
+ 
