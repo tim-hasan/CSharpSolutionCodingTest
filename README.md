@@ -1,4 +1,4 @@
-# CSharpSolutionCodingTest
+# CSharp solution for SDET coding Ttst
 Contains a CSHARP solution for the DU SDET Test.
 
 This repo contains a console application, a class library for the engine and some unit tests.
